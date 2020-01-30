@@ -1,3 +1,36 @@
-body{
+/* body{
+    color:red;
+} */
+.a{
+    font-size: 20px;
+}
+.a .b,.a .c{
+    font-weight: 600;
+    color: goldenrod;
+}
+.a>.c>.d{
     color:red;
 }
+/* .b,.c{
+    background: hotpink;
+} */
+
+.a~.d{
+    color:cornflowerblue;
+    font-weight: 600;
+}
+
+
+.a+.f{
+    background: darkgrey;
+}
+
+.div::first-line{
+    color:red;
+}
+.div::first-letter{
+    font-size: 22px;
+    text-transform: uppercase   ;
+}
+p.special::before {    display: block;    content: counter(chapno, upper-roman) ". ";}
+
